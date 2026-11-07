@@ -1,7 +1,7 @@
 // Service worker: maakt de fotoapp installeerbaar en laat hem openen bij slecht bereik.
 // Altijd eerst het netwerk (zodat updates direct doorkomen), anders de opgeslagen versie.
 // Uploads en de fotomuur (Google) gaan hier nooit doorheen.
-const CACHE = 'fotomuur-v15';
+const CACHE = 'fotomuur-v16';
 const SHELL = ['./', './index.html', './qr.png', './tijn-martijn.jpg', './icon-tv-192.png', './icon-tv-512.png', './manifest-tv.webmanifest'];
 
 self.addEventListener('install', (e) => {
